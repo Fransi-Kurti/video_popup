@@ -42,6 +42,7 @@ body{
 .btn{
     padding: 10px 15px;
     color: #d5e5ff;
+    font-size: 1rem;
     background: darkblue;
     cursor: pointer;
     border: rgb(23, 23, 121);
@@ -49,7 +50,7 @@ body{
 }
 
 .btn:hover{
-    background: #b4cffa;
+    background: #93baf8;
     color: darkblue;
 }
 
@@ -71,12 +72,15 @@ body{
     max-width: 1080px;
     outline: none;
 }
+.video-popup-container.active{
+    visibility: hidden;
+}
 
 .close_icon{
     position: absolute;
     top: 25px;
     right: 25px;
-    color: white;
+    color: darkblue;
     cursor: pointer;
 }
 
